@@ -1,0 +1,10 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@font-face {
+    font-family: "MyFont";
+    src: url("~@/assets/Avenir-Medium.ttf");
+}
+
+$body-font-family:  'MyFont', avenir-medium;
